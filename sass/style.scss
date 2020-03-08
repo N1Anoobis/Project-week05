@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 2rem;
+}
+
+.container {
+height: 100vh;
+    display: flex;
+
+    h1 {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+   
+    .board {
+        display: flex;
+        flex-wrap: wrap;
+        flex-basis: 310px;
+        margin: auto;
+        .box {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100px;
+            height: 100px;
+            background-color: rgb(220, 255, 226);
+            cursor: pointer;
+            border: 1px black solid;
+            &:hover {
+                background-color: lightgray;
+            }
+        }
+    }
+}
