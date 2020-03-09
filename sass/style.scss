@@ -19,6 +19,7 @@ height: 100vh;
         display: flex;
         flex-wrap: wrap;
         flex-basis: 310px;
+        min-width: 300px;
         margin: auto;
         .box {
             display: flex;

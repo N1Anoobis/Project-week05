@@ -24,6 +24,7 @@
       flex-wrap: wrap;
   -ms-flex-preferred-size: 310px;
       flex-basis: 310px;
+  min-width: 300px;
   margin: auto;
 }
 
